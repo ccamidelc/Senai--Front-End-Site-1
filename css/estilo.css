@@ -1,0 +1,254 @@
+/*cabeçalho*/
+.navbar-brand{
+    position:relative; left: 80px;
+}
+.nav-link{
+    color:#FEFEFE;
+    justify-content: left;
+    font-size: 18px;
+    position:relative; left: 280px;
+    margin-left: 30px;
+    position: relative;
+
+}
+
+/*.nav-link:hover{
+    color:#e8e8e8;
+    font-size: 20px;
+}*/
+
+
+.search-box{
+    /*position: absolute;*/ 
+    width: 520px;
+    background: white;
+    height: 40px;
+    border-radius: 40px;;
+    padding: 10px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:relative; left: 180px;
+}
+
+.search-text{
+    background: none;
+    border: 0;
+    outline: 0;
+    font-size: 16px;  
+    justify-content: left;
+    margin-right:95%;
+}
+
+.search-btn{
+    padding: 10px;
+    display:flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.dropdown-menu {
+    background-color: rgba(106, 106, 106, 0.17);
+    display:none;
+    border: none;
+
+}
+
+.dropdown-item:hover {
+    background-color: #333333;
+    color:#FEFEFE;
+    font-size: 23px;
+}
+ 
+.dropdown-item {
+    color:#FEFEFE !important;
+    font-size: 18px; 
+} 
+
+.dropdown .dropdown-toggle{
+    font-size: 22px;
+    color:#FEFEFE;
+    text-decoration: none;
+    position:relative;  left: 16%; top:15px;
+    margin-left: 60px;
+    justify-content:center;
+}
+
+.dropdown{
+    position:absolute;
+    width:100%;
+    max-width:100%;
+}
+
+/*Conteudo principal*/
+body{
+    background-color: #333333;
+}
+
+
+/*banner*/
+#section-banner img{
+   margin-left: 5%; 
+   height: 525px;
+
+}
+
+#carouselMain{
+    position:relative;
+    margin-top: 5%;    
+
+}
+
+/*Produtos vendidos*/
+#section-vendidos{
+    text-align: center;
+}
+
+#section-vendidos h2{
+    font-weight: bold;
+    padding: 25px;
+    color:#FEFEFE;
+    text-align: center;
+}
+
+#section-vendidos img{
+    width: 220px;
+    justify-content: center;
+    margin-left: 27%;
+    margin-top:10px;
+}
+
+#section-vendidos .card{
+    margin: 2px; 
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #FEFEFE;
+}
+
+#section-vendidos .preco{
+    font-size: 18px;
+    font-weight: bold;
+    color: #333333;
+}
+
+#section-vendidos .card-title{
+    margin-top: -10px;
+}
+
+#section-vendidos .text{
+    font-size: 16px;
+    font-weight: medium;
+    text-align: center; 
+    color: #333333;
+}
+
+.btn-primary1{
+    background-color: red;
+    border-radius: 25px;
+    outline: 0;
+    border:0;
+    position: relative; 
+    color: #FEFEFE;
+}
+
+.btn-primary1:hover{
+    background-color: #333333;
+    color: #FEFEFE;
+}
+
+.btn-secondary{
+    color:#333333;
+    text-decoration: none;
+    font-weight: bold;
+    position:relative;  
+}
+
+.mais-produtos{
+    color: #FEFEFE;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    position: relative;
+    margin-left:85% ;
+    top:15px;
+    padding-bottom: 2%;
+
+}
+
+/*Rodapé*/
+footer{
+    text-align: center;
+    color: #FEFEFE; 
+}
+
+footer p{
+    font-weight: bold;
+    padding: 10px;
+}
+
+/*Botão Voltar topo*/
+#voltar-topo{
+     position:fixed;
+     bottom: 5px;
+     right: 50px;
+}
+
+/* página de login  */
+#section-login{
+    margin-top: 100px;
+    text-align: center;
+    color: #FEFEFE;
+}
+
+#section-login h1{
+    text-align: center;
+    color:#FEFEFE;
+}
+
+#section-login input{
+    width: 100%;
+}
+
+/*Formulário Cadastro*/
+
+#section-cadastro{
+    padding: 5px;
+    text-align: center;
+    color: #FEFEFE;
+}
+#form-cadastrar{
+    padding:50px;
+    display:none;
+}
+
+h1{
+    padding: 10px;
+    text-align: center;
+    margin-top: 8%;
+}
+
+.descricao{
+    text-align: center;
+    margin-top: -5px;
+}
+
+.btn-info{
+    background-color: #1b98e0;
+    color: #0e0e0e;
+    border-radius: 15px;
+    outline: 0;
+    border-color: #333333;
+}
+
+.btn-primary{
+    background-color: #1b98e0;
+    color: #0e0e0e;
+    border-radius: 12px;
+}
+
+.btn-primary:hover{
+    background-color: red;
+}
+
+/*nav-item*/
